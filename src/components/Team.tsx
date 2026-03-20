@@ -4,6 +4,10 @@ import { GithubIcon, LinkedinIcon, MailIcon } from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import shyanPfp from '../assets/shyan-pfp.png';
+import gayanPfp from '../assets/gayan-pfp.jpeg';
+import dunalPfp from '../assets/dunal-pfp.jpeg';
+import akithPfp from '../assets/akith-pfp.jpeg';
+import sanupaPfp from '../assets/sanupa-pfp.jpeg';
 
 gsap.registerPlugin(ScrollTrigger);
 export function Team() {
@@ -15,46 +19,42 @@ export function Team() {
   {
     name: 'Akith Nanayakkara',
     role: t.team.roles.lead,
-    image:
-    'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
-    email: 'tharusha@srimaps.lk'
+    image: akithPfp,
+    linkedin: 'https://www.linkedin.com/in/akith-nanayakkara-0abb10332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    github: 'https://github.com/akith20233080-del',
+    email: 'Akithnanayakkara2021@gmail.com'
   },
   {
     name: 'Raphael Wijesekera',
     role: t.team.roles.frontend,
     image: shyanPfp,
-    linkedin: 'https://linkedin.com',
-    github: 'https://www.linkedin.com/in/shyan-wijesekera/',
+    linkedin: 'https://www.linkedin.com/in/shyan-wijesekera',
+    github: 'hhttps://github.com/shyanraphael',
     email: 'shyanraphael@gmail.com'
   },
   {
     name: 'Sanupa Indigahawela',
     role: t.team.roles.backend,
-    image:
-    'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop',
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
-    email: 'nimal@srimaps.lk'
+    image: sanupaPfp,
+    linkedin: 'https://www.linkedin.com/in/sanupa-indigahawela',
+    github: 'https://github.com/SanviduIndi',
+    email: 'sanupasanviduindi@gmail.com'
   },
   {
     name: 'Dunal Senara',
     role: t.team.roles.designer,
-    image:
-    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
-    email: 'amaya@srimaps.lk'
+    image: dunalPfp,
+    linkedin: 'https://www.linkedin.com/in/dunal-senara-00034b39a/',
+    github: 'https://github.com/dunalsenara',
+    email: 'senaradunal@gmail.com'
   },
   {
     name: 'Gayan Nanayakkara ',
     role: t.team.roles.mobile,
-    image:
-    'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=400&h=400&fit=crop',
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
-    email: 'dinesh@srimaps.lk'
+    image: gayanPfp,
+    linkedin: 'https://www.linkedin.com/in/gayan-sampath-58715b283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    github: 'https://github.com/gayannanayakkara',
+    email: 'gsnanayakkara345@gmail.com'
   },
   {
     name: 'Danith Bandara',
