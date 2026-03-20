@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../hooks/useLanguage';
-import { MapPinIcon, PhoneIcon, MailIcon } from 'lucide-react';
+import { PhoneIcon, MailIcon } from 'lucide-react';
+import logo from "../assets/logo.png"
 export function Footer() {
   const { t } = useLanguage();
   const quickLinks = [
@@ -34,8 +35,8 @@ export function Footer() {
           {/* Logo & Description */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center shadow-glow-primary">
-                <MapPinIcon className="w-6 h-6 text-white" />
+              <div className="w-14 h-14 ">
+                <img src={logo} alt="Sri Maps logo" className="w-full h-full object-cover" />
               </div>
               <span className="text-2xl font-heading font-bold gradient-text">
                 Sri Maps
