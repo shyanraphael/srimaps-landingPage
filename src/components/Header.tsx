@@ -1,8 +1,9 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useTheme } from '../hooks/useTheme';
 import { useLanguage, Language } from '../hooks/useLanguage';
-import { SunIcon, MoonIcon, MenuIcon, XIcon, MapPinIcon } from 'lucide-react';
+import { SunIcon, MoonIcon, MenuIcon, XIcon } from 'lucide-react';
 import gsap from 'gsap';
+import logo from "../assets/logo.png";
 export function Header() {
   const { theme, toggleTheme } = useTheme();
   const { language, setLanguage, t } = useLanguage();
@@ -93,9 +94,9 @@ export function Header() {
             className="flex items-center space-x-2 cursor-pointer"
             onClick={() => scrollToSection('hero')}>
 
-            <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center shadow-glow-primary">
-              <MapPinIcon className="w-6 h-6 text-white" />
-            </div>
+            <div className="w-16 h-16 ">
+                <img src={logo} alt="Sri Maps logo" className="w-full h-full object-cover" />
+              </div>
             <span className="text-xl md:text-2xl font-heading font-bold gradient-text">
               Sri Maps
             </span>
